@@ -43,7 +43,7 @@
 
     <div class="ui page grid">
       <div class="column">
-        <div class="ui menu fixed">
+        <div class="ui menu fixed header_menu">
           <a id="sidebar-toggle" class="launch item">
             <i class="content icon"></i>
             Menu
@@ -80,55 +80,60 @@
 
     <div class="main container">
       <a class="anchor" id="top"></a>
-      <div class="ui inverted teal vertical segment">
-        <div class="masthead">
-          <div class="ui padded grid">
+      <div class="ui vertical segment masthead">
+        <img src="images/logo.png" class="logo" />
+        <div class="masthead-content">
+          <div class="ui padded grid ">
             <div class="row">
               <div class="column">
-                <h1 class="ui inverted header">
-                  Scala関西 Summit 2015
-                </h1>
                 <p>CheerUp.scala!「Scalaを応援しよう！」をテーマに、関西最大級のScalaカンファレンスが開催されます。</p>
-                <div class="large basic inverted animated fade ui button">
-                  <div class="visible content">参加登録(準備中)</div>
-                  <div class="hidden content">Comming Soon!</div>
-                </div>
+                <a href="http://scalakansaisummit2015.peatix.com" class="large animated fade ui button teal">
+                  <div class="visible content"><i class="star icon"></i>参加登録はこちらから</div>
+                  <div class="hidden content">Go!</div>
+                </a>
               </div>
             </div>
-            <div class="row">
+            <div class="two column doubling row">
               <div class="column">
-                <div class="ui header inverted">
+                <div class="ui header">
                   <i class="calendar icon"></i>
                   <div class="content">
                     日程：2015年8月1日(土)
                   </div>
                 </div>
-                <div class="ui header inverted">
+                <div class="ui header">
                   <i class="map icon"></i>
                   <div class="content">
                     場所：大阪中央公会堂
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
               <div class="column">
-                <ul class="sns">
-                  <li>
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/" data-hashtags="scala_ks">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                  </li>
-                  <li>
-                    <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Scala関西 Summit 2015" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-                  </li>
-                </ul>
-                <div class="fb-like" data-href="http://summit.scala-kansai.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                <a class="big ui button orange" href="jobs.html">
+                  <i class="announcement icon"></i>スポンサー求人情報・広告</a>
               </div>
             </div>
           </div>
         </div>
-      </div> <!-- masthead -->
-
+      </div>
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <ul class="sns">
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/" data-hashtags="scala_ks">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </li>
+              <li>
+                <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Scala関西 Summit 2015" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+              </li>
+              <li>
+                <div class="fb-like" data-href="http://summit.scala-kansai.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <a class="anchor" id="news"></a>
       <div class="contents">
         <div class="ui page grid">
@@ -141,6 +146,7 @@
               </div>
             </h1>
             <ul>
+              <li>2015/07/01 参加登録受付開始 セッション情報一部公開</li>
               <li>2015/05/09 Goldスポンサー 受付終了</li>
               <li>2015/05/08 スポンサー様特典 一部改訂 (求人情報掲載をサービス宣伝との選択制に変更)</li>
               <li>2015/05/03 公式サイトオープン</li>
@@ -196,41 +202,59 @@
                 <div class="sub header">登壇者</div>
               </div>
             </h1>
-            <h2 class="ui header">スピーカー募集 Call for Speakers</h2>
-            <p>本カンファレンスで発表をしていただける方を募集しております。</p>
-            <h3 class="ui header">募集概要</h3>
-            <ul>
-              <li>各発表者の持ち時間は以下の通りです。
-                <ul>
-                  <li>通常セッション: 20分</li>
-                  <li>LT: 5分</li>
-                </ul>
-              </li>
-              <li>交通費等の補助はございませんので予めご了承ください。</li>
-              <li>Scala に関する発表であれば何でも OK です。</li>
-              <li>発表スライドをカンファレンス終了後に当サイト上で公開いただきます。</li>
-            </ul>
-            <h3 class="ui header">スケジュール</h3>
-            <ul>
-              <li>通常セッション
-                <ul>
-                  <li><s>締切: 2015-06-15 (月)</s> 通常セッションの受付は終了いたしました。たくさんのご応募ありがとうございました。</li>
-                  <li>2015-07-01 までに応募者全員に選考結果をご連絡いたします。</li>
-                </ul>
-              </li>
-              <li>LT
-                <ul>
-                  <li>締切: 2015-06-30 (火)</li>
-                  <li>2015-07-15 までに応募者全員に選考結果をご連絡いたします。</li>
-                </ul>
-              </li>
-            </ul>
-            <h3 class="ui header">応募方法</h3>
-            <p><a href="https://docs.google.com/a/nocono.net/forms/d/1flR7fruNljYK8ObTGqKTzPJFcq94wx2Ni4nkIGmYcgQ/viewform">こちらのフォーム</a>よりお申込みください。提出いただいた情報は選考の判断材料としてのみ使用いたします。選考を通過された場合、公開用のお名前、発表内容の表記、自己紹介をご提出いただきます。</p>
-            <h3 class="ui header">その他</h3>
-            <ul>
-              <li>発表の様子を撮影・公開する可能性がありますがご了承ください。</li>
-            </ul>
+            <div class="ui six doubling cards">
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/seratch.jpeg">
+                </div>
+                <div class="content">
+                  <span class="header">瀬良 和弘</span>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/seratch"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/seratch_ja"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/seratch"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/agata.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">縣 俊貴</span>
+                  <div class="meta">
+                    株式会社ヌーラボ
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/agata"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/agata"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/toshitaka.agata"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/ada-u.png">
+                </div>
+                <div class="content">
+                  <span class="header">安達 勇太</span>
+                  <div class="meta">
+                    ChatWork株式会社
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/ada-u"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/uadachi"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/adachiyuta"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div> <!-- speakers -->
@@ -249,8 +273,68 @@
               </div>
             </h1>
             <p>
-              調整中
+              10時開場、10時30分開始予定
             </p>
+            <p>
+              タイムテーブルは調整中です。公開まで今しばらくお待ち下さい。
+            </p>
+            <h2>予定セッション一覧</h2>
+            <p>※ 一部のみ。随時情報追加予定。</p>
+            <div class="ui divided list" data-bind="foreach: sessions">
+              <div class="item">
+                <div class="content">
+                  <div class="session button" data-bind='click: $parent.showDetail'>
+                    <a class="session header" data-bind="text: title"></a>
+                  </div>
+                  <div class="description" data-bind="text: speaker.name"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ui standard session modal">
+              <i class="session close icon"></i>
+              <div class="header" data-bind="text: selected().title"></div>
+              <div class="content" data-bind="with: selected">
+                <div class="description">
+                  <div data-bind="foreach: description">
+                    <p data-bind="html: $data"></p>
+                  </div>
+                  <div class="ui items">
+                    <div class="item">
+                      <div class="image">
+                        <img data-bind="attr: { src: 'images/speakers/' + speaker.image }">
+                        <div class="extra">
+                          <div class="right floated">
+                            <span data-bind="if: speaker.github">
+                              <a data-bind="attr: { href: speaker.github }"><i class="circular inverted teal github alternate icon"></i></a>
+                            </span>
+                            <span data-bind="if: speaker.twitter">
+                              <a data-bind="attr: { href: speaker.twitter }"><i class="circular inverted teal twitter icon"></i></a>
+                            </span>
+                            <span data-bind="if: speaker.twitter_en">
+                              <a data-bind="attr: { href: speaker.twitter_en }"><i class="circular inverted teal twitter icon"></i></a>
+                            </span>
+                            <span data-bind="if: speaker.facebook">
+                              <a data-bind="attr: { href: speaker.facebook }"><i class="circular inverted teal facebook icon"></i></a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <span class="header" data-bind="text: speaker.name"></span>
+                        <div class="description" data-bind="foreach: speaker.introduction">
+                          <p data-bind="html: $data"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="ui button session close">
+                  Close
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div> <!-- Schedule -->
@@ -276,6 +360,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3280.4627712360043!2d135.5039!3d34.693506!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e63367b5ad%3A0xbfee32515e20cd5d!2z5aSn6Ziq5biC5Lit5aSu5YWs5Lya5aCC!5e0!3m2!1sja!2sjp!4v1425916518197" frameborder="0" style="border:0"></iframe>
               </div>
             </div>
+            ※ 当イベントについて、会場へは問い合わせないようにお願いします。
           </div>
         </div>
       </div> <!-- venue -->
@@ -422,7 +507,7 @@
                 <div class="sub header">スタッフ</div>
               </div>
             </h1>
-            <div class="ui six doubling cards">
+            <div class="ui eight doubling cards">
               <div class="card">
                 <div class="image">
                   <img src="images/icons/kinoko.png">
@@ -474,11 +559,124 @@
                   <a class="header" href="https://twitter.com/kitora_naoki">Kitora Naoki</a>
                 </div>
               </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/ito.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/0x17E">ITO Ryuichi</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hayasshi.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/hayasshi_">Hayashi Daisuke</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hajee.png">
+                </div>
+                <div class="content">
+                  <span class="header">Hajee</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hamazy.jpeg">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/hamazy">Suguru Hamazaki</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/matsushi.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/tomo_matsushi">matsushita</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/danno.png">
+                </div>
+                <div class="content">
+                  <span class="header">だんの</span>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/nagano.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">Sotaro Nagao</span>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/yamashita.jpeg">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/teru147">Yamashita Terushi</a>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div> <!-- Staff -->
-
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="heart icon"></i>
+              <div class="content">
+                Special Thunks
+              </div>
+            </h1>
+            <div class="ui five doubling cards">
+              <div class="card">
+                <div class="content">
+                  <span class="header">Logo Desiginer</span>
+                </div>
+                <div class="image">
+                  <a href="http://osaru-kyujitu.com/">
+                    <img class="ui image" src="images/icons/osaru.png">
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <span class="header">Photographer</span>
+                </div>
+                <div class="image">
+                  <a href="http://hpo-tres.jp/">
+                    <img class="ui image" src="images/icons/hpo.jpg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            ※ 当イベントに関するお問い合わせは<a href="http://goo.gl/forms/0jgvS6ufhL">こちらのフォーム</a>からお願いします。
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="ui inverted footer vertical segment">
