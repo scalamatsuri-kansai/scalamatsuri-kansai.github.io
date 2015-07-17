@@ -323,23 +323,172 @@
               </div>
             </h1>
             <p>
-              10時開場、10時30分開始予定
+              ※ 変更となる可能性があります<br>
+              ※ ご参加の方は必ず参加登録をお願いします。当日参加枠および当日キャンセル待ち枠はありません。
             </p>
-            <p>
-              タイムテーブルは調整中です。公開まで今しばらくお待ち下さい。
-            </p>
-            <h2>予定セッション一覧</h2>
-            <p>※ 一部のみ。随時情報追加予定。</p>
-            <div class="ui divided list" data-bind="foreach: sessions">
-              <div class="item">
-                <div class="content">
-                  <div class="session button" data-bind='click: $parent.showDetail'>
-                    <a class="session header" data-bind="text: title"></a>
-                  </div>
-                  <div class="description" data-bind="text: speaker.name"></div>
-                </div>
-              </div>
-            </div>
+            <table class="ui definition celled table">
+              <thead class="full-width">
+                <tr>
+                  <th></th>
+                  <th class="center aligned">メインホール<br>小集会室</th>
+                  <th class="center aligned">サブホール<br>第6〜8会議室</th>
+                  <th class="center aligned">ハンズオン・LT<br>第4会議室</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="center aligned">10:00<br>|<br>10:30</td>
+                  <td>受付</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">10:30<br>|<br>10:45</td>
+                  <td>オープニング</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">10:50<br>|<br>11:15</td>
+                  <td data-bind="with: sessions[0]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[9]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">11:25<br>|<br>11:50</td>
+                  <td data-bind="with: sessions[5]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[3]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td rowspan="4" style="vertical-align: top;">
+                    <b class="program title">初心者向けハンズオン(仮)</b><br>
+                    (内容調整中)
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="2" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">12:00<br>|<br>12:25</td>
+                  <td data-bind="with: sessions[2]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[7]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="food icon"></i>昼休み</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">13:30<br>|<br>13:55</td>
+                  <td data-bind="with: sessions[1]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[4]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td rowspan="4" style="vertical-align: top;">
+                    <b class="program title">【ハンズオン】Skinny Framework 2.0 で試すお手軽 Scala Web アプリ開発</b><br>
+                    瀬良 和弘<br>
+                    (内容調整中)
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="2" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">14:05<br>|<br>14:30</td>
+                  <td data-bind="with: sessions[6]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[8]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">14:40<br>|<br>15:05</td>
+                  <td data-bind="with: sessions[10]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td data-bind="with: sessions[11]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                  </td>
+                  <td style="vertical-align: top;">
+                    <b class="program title">LT大会</b>
+                    <div data-bind="with: sessions[12]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                    </div>
+                    <div data-bind="with: sessions[14]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                    </div>
+                    <div data-bind="with: sessions[13]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                    </div>
+                    <div data-bind="with: sessions[15]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">15:15<br>|<br>16:00</td>
+                  <td style="vertical-align: top;">
+                    <b class="program title">パネルトーク</b><br>
+                    モデレータ：九岡 佑介<br>
+                    パネリスト：縣 俊貴, 安達 勇太, 粕谷 大輔, 木虎 直樹
+                  </td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">16:00<br>|<br>16:20</td>
+                  <td>クロージング</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
             <div class="ui standard session modal">
               <i class="session close icon"></i>
               <div class="header" data-bind="text: selected().title"></div>
@@ -476,6 +625,16 @@
                 </p>
               </div>
             </div>
+            <div class="column">
+              <div class="ui segment">
+                <a href="http://samuraism.com/">
+                  <img class="ui centered image" src="images/sponsors/samuraism.png">
+                </a>
+                <h3 class="ui header"><a href="http://samuraism.com/">株式会社サムライズム</a></h3>
+                <p>
+                </p>
+              </div>
+            </div>
           </div>
           <h2 class="ui header">Silver</h2>
           <div class="three column row aligned">
@@ -504,6 +663,21 @@
             <div class="column">
               <a href="http://www.xyzzyx.co.jp/">
                 <img src="images/sponsors/xyzzyx.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.typesafe.com/">
+                <img src="images/sponsors/typesafe.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://corporate.m3.com/">
+                <img src="images/sponsors/m3.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.motex.co.jp/">
+                <img src="images/sponsors/motex.png">
               </a>
             </div>
           </div>
@@ -544,6 +718,11 @@
             <div class="column">
               <a href="http://wachi.info/">
                 <img class="ui image" src="images/sponsors/wachi.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.whizz-tech.co.jp/">
+                <img class="ui image" src="images/sponsors/whizz.png">
               </a>
             </div>
           </div>
