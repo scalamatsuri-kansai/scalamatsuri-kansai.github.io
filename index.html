@@ -146,6 +146,7 @@
               </div>
             </h1>
             <ul>
+              <li>2015/07/29 ハンズオン詳細更新</li>
               <li>2015/07/01 参加登録受付開始 セッション情報一部公開</li>
               <li>2015/05/09 Goldスポンサー 受付終了</li>
               <li>2015/05/08 スポンサー様特典 一部改訂 (求人情報掲載をサービス宣伝との選択制に変更)</li>
@@ -378,9 +379,10 @@
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
                   </td>
-                  <td rowspan="3" style="vertical-align: top;">
-                    <b class="program title">【ハンズオン】関数プログラミングことはじめ</b><br>
-                    (内容調整中)
+                  <td data-bind="with: sessions[16]" rowspan="3" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <p>定員：20名</p>
                   </td>
                 </tr>
                 <tr>
@@ -412,10 +414,10 @@
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
                   </td>
-                  <td rowspan="3" style="vertical-align: top;">
-                    <b class="program title">【ハンズオン】Skinny Framework 2.0 で試すお手軽 Scala Web アプリ開発</b><br>
-                    瀬良 和弘<br>
-                    (内容調整中)
+                  <td data-bind="with: sessions[17]" rowspan="3" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <p>定員：20名</p>
                   </td>
                 </tr>
                 <tr>
@@ -475,8 +477,12 @@
                   <td class="center aligned">15:15<br>|<br>16:00</td>
                   <td style="vertical-align: top;">
                     <b class="program title">パネルトーク</b><br>
-                    モデレータ：九岡 佑介<br>
-                    パネリスト：縣 俊貴, 安達 勇太, 粕谷 大輔, 木虎 直樹
+                    モデレータ：<!-- ko with: sessions[18] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko --><br>
+                    パネリスト：
+                    <!-- ko with: sessions[19] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[20] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[21] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[22] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->
                   </td>
                   <td>-</td>
                   <td>-</td>
@@ -491,7 +497,9 @@
             </table>
             <div class="ui standard session modal">
               <i class="session close icon"></i>
+              <!-- ko if: selected().title -->
               <div class="header" data-bind="text: selected().title"></div>
+              <!-- /ko -->
               <div class="content" data-bind="with: selected">
                 <div class="description">
                   <div data-bind="foreach: description">
@@ -503,18 +511,18 @@
                         <img data-bind="attr: { src: 'images/speakers/' + speaker.image }">
                         <div class="extra">
                           <div class="right floated">
-                            <span data-bind="if: speaker.github">
+                            <!-- ko if: speaker.github -->
                               <a data-bind="attr: { href: speaker.github }"><i class="circular inverted teal github alternate icon"></i></a>
-                            </span>
-                            <span data-bind="if: speaker.twitter">
+                            <!-- /ko -->
+                            <!-- ko if: speaker.twitter -->
                               <a data-bind="attr: { href: speaker.twitter }"><i class="circular inverted teal twitter icon"></i></a>
-                            </span>
-                            <span data-bind="if: speaker.twitter_en">
+                            <!-- /ko -->
+                            <!-- ko if: speaker.twitter_en -->
                               <a data-bind="attr: { href: speaker.twitter_en }"><i class="circular inverted teal twitter icon"></i></a>
-                            </span>
-                            <span data-bind="if: speaker.facebook">
+                            <!-- /ko -->
+                            <!-- ko if: speaker.facebook -->
                               <a data-bind="attr: { href: speaker.facebook }"><i class="circular inverted teal facebook icon"></i></a>
-                            </span>
+                            <!-- /ko -->
                           </div>
                         </div>
                       </div>
