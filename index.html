@@ -146,7 +146,7 @@
               </div>
             </h1>
             <ul>
-              <li>2015/07/31 タイムテーブル一部場所変更</li>
+              <li>2015/07/31 タイムテーブル一部変更</li>
               <li>2015/07/29 ハンズオン詳細更新</li>
               <li>2015/07/01 参加登録受付開始 セッション情報一部公開</li>
               <li>2015/05/09 Goldスポンサー 受付終了</li>
@@ -285,24 +285,6 @@
                   <div class="right floated">
                     <a href="https://github.com/gakuzzzz"><i class="circular inverted teal github alternate icon"></i></a>
                     <a href="https://twitter.com/gakuzzzz"><i class="circular inverted teal twitter icon"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image">
-                  <img src="images/speakers/yusuke.jpeg">
-                </div>
-                <div class="content">
-                  <span class="header">山本 裕介</span>
-                  <div class="meta">
-                    株式会社サムライズム
-                  </div>
-                </div>
-                <div class="extra content">
-                  <div class="right floated">
-                    <a href="https://github.com/yusuke"><i class="circular inverted teal github alternate icon"></i></a>
-                    <a href="https://twitter.com/yusuke"><i class="circular inverted teal twitter icon"></i></a>
-                    <a href="https://www.facebook.com/yusukey"><i class="circular inverted teal facebook icon"></i></a>
                   </div>
                 </div>
               </div>
@@ -466,8 +448,11 @@
                     <span data-bind="text: speaker.name"></span>
                   </td>
                   <td data-bind="with: sessions[10]" style="vertical-align: top;">
-                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
-                    <span data-bind="text: speaker.name"></span>
+                    <span class="session title" style="text-decoration: line-through;" data-bind="text: title"></span><br>
+                    <span data-bind="text: speaker.name" style="text-decoration: line-through;"></span>
+                    <div class="ui red message">
+                      こちらのセッションは登壇者の体調不良によりキャンセルとなりました。ご了承ください。
+                    </div>
                   </td>
                 </tr>
                 <tr>
