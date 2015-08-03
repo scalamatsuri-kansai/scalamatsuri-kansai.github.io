@@ -151,6 +151,7 @@
               </div>
             </h1>
             <ul>
+              <li>2015/08/03 発表スライドへのリンク追加</li>
               <li>2015/08/01 Scala関西 Summit 2015 開催</li>
               <li>2015/07/31 タイムテーブル一部変更</li>
               <li>2015/07/29 ハンズオン詳細更新</li>
@@ -345,12 +346,18 @@
                 <tr>
                   <td class="center aligned">10:50<br>|<br>11:15</td>
                   <td data-bind="with: sessions[0]" style="vertical-align: top;">
-                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <div><a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a></div>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[9]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td>-</td>
                 </tr>
@@ -363,14 +370,23 @@
                   <td data-bind="with: sessions[5]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[3]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[16]" rowspan="3" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                     <p>定員：20名</p>
                   </td>
                 </tr>
@@ -383,10 +399,16 @@
                   <td data-bind="with: sessions[2]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[7]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                 </tr>
                 <tr>
@@ -398,14 +420,23 @@
                   <td data-bind="with: sessions[1]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[4]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[17]" rowspan="3" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                     <p>定員：20名</p>
                   </td>
                 </tr>
@@ -418,10 +449,16 @@
                   <td data-bind="with: sessions[6]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[8]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                 </tr>
                 <tr>
@@ -435,23 +472,38 @@
                     <div data-bind="with: sessions[12]">
                       <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                       <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
                     </div>
                     <div data-bind="with: sessions[14]">
                       <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                       <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
                     </div>
                     <div data-bind="with: sessions[13]">
                       <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                       <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
                     </div>
                     <div data-bind="with: sessions[15]">
                       <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                       <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
                     </div>
                   </td>
                   <td data-bind="with: sessions[11]" style="vertical-align: top;">
                     <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
                     <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
                   </td>
                   <td data-bind="with: sessions[10]" style="vertical-align: top;">
                     <span class="session title" style="text-decoration: line-through;" data-bind="text: title"></span><br>
