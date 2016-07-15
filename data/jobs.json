@@ -61,8 +61,7 @@
       "companyUrl": "http://www.tis.jp/service_solution/goreactive/",
       "logo": "tis.png",
       "message": [
-        "Akka、Play、Scalaでの開発ご支援致します！",
-        "Lightbendの認定コンサルティングパートナーであるTISはAkka、Play Framework、Scalaを利用したアプリケーションの構築をサポートします。<br>お客様の開発フェーズや目的に応じて、POC支援からシステム構築のトータルサポートまで幅広くご支援致します。",
+        "Lightbendの認定コンサルティングパートナーであるTISはAkka、Play Framework、Scalaを利用したアプリケーションの構築をサポートします。お客様の開発フェーズや目的に応じて、POC支援からシステム構築のトータルサポートまで幅広くご支援致します。",
         "・技術検証・POC支援<br>・アーキテクチャ・設計レビュー<br>・コードレビュー<br>・システム構築のトータルサポート",
         "スケーラブルなアプリケーションや障害に強いシステムの構築でお悩みの方は製品情報ページからご連絡下さい。"
       ],
