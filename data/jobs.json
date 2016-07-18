@@ -67,6 +67,35 @@
       ],
       "buttonTitleToOfferPage": "製品情報ページ",
       "offerPageUrl": "http://www.tis.jp/service_solution/goreactive/"
+    },
+    {
+      "name": "株式会社はてな",
+      "companyUrl": "http://hatenacorp.jp/",
+      "logo": "hatena.svg",
+      "message": [
+        "はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a target='_blank' href='http://b.hatena.ne.jp/'>はてなブックマーク</a>」「<a target='_blank' href='http://hatenablog.com/'>はてなブログ</a>」などのソーシャルサービスを展開しています。最近はサーバー監視ツール「<a target='_blank' href='https://mackerel.io/ja/'>Mackerel</a>」などビジネス向けの製品もリリースし、アクティブに開発中です。",
+        "京都と東京の二拠点体制に加え、自宅でリモート勤務をしているエンジニアもおり、GitHub Enterprise や Slack を利用しアジャイルなチーム開発を行っています。",
+        "Mackerel が Scala と Go で書かれているほか、最近でははてなブックマークのリニューアルに Scala を採用しています。イベントや技術ブログでも、Scala に関する取り組みを発信しています（<a target='_blank' href='http://www.slideshare.net/oarat/2015-0801-scala'>はてなブックマーク in Scala</a>、<a target='_blank' href='http://2014.scalamatsuri.org/ja/program/index.html#session-b-5'>Mackerel における Scala/Play</a>）。",
+        "Scala を使って人の生活を豊かにしたいあなた、是非ご応募ください！ 勤務地は京都と東京の両方を選択できます。詳しくは採用ページや開発者ブログをご覧ください。",
+        "<a target='_blank' href='http://hatenacorp.jp/recruit/'>採用情報 - 株式会社はてな</a>",
+        "<a target='_blank' href='http://developer.hatenastaff.com/'>Hatena Developer Blog</a>"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://hatenacorp.jp/recruit/"
+    },
+    {
+      "name": "株式会社リンコード",
+      "companyUrl": "https://www.linkode.co.jp/",
+      "logo": "linkode.png",
+      "message": [
+        "どこにもないシステムをScalaで",
+        "当社は現在、音声認識システムと学校向けパッケージの開発をメインに行っています。<br>特に音声認識システムの開発では、多くの端末から送信される音声データを<br>非同期並列に、かつ高速で処理することが求められます。<br>このようなシステムは、既存のフレームワークでは実現が困難なため、<br>Scalaを用いて、Akkaなどのライブラリを組み合わせて最適なシステムを模索しながら開発設計しています。",
+        "当社では、このような\"どこにもないシステム\"開発に本気で取り組んでみたい<br>エンジニアの採用を積極的に行っています。",
+        "また、自社サービスやプロダクトの社内提案を奨励しています。<br>Scalaで\"どこにもないシステム\"を開発していみたいという希望を持っている方を探しています。",
+        "当社に少しでも興味を持った方は、採用情報ページをご参照ください。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://linkode.recruitment.jp/career/"
     }
   ]
 }
