@@ -45,6 +45,20 @@
   ],
   "silver": [
     {
+      "name": "エムオーテックス株式会社",
+      "companyUrl": "http://www.motex.co.jp",
+      "logo": "motex.png",
+      "message": [
+        "あなた：「次のプロジェクトはScalaで挑戦してみたいのですが…」<br>上司　：「そんな訳のわからない言語はダメです！」",
+        "というやり取りを経験したことのあるそこのあなた！",
+        "私たちと一緒に、ScalaでPlay2でDDDなプロダクトを一緒に作りませんか？<br>私たちは、日本でトップシェアを得ているプロダクトを携え、これから世界に打って出ます。",
+        "開発効率、品質アップのために選択した開発環境はScala、そしてPlay2 Framework。<br>ユーザーの本当の課題を解決し、プロダクトが進化し続けるためのの手法として選択したのはDDD。",
+        "あなたの実力を存分に活かす為の環境を用意しています。<br>是非、世界に打って出る製品を一緒に作りましょう！ご応募お待ちしております！"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://www.motex.co.jp/recruit/career/"
+    },
+    {
       "name": "株式会社グラッドキューブ",
       "companyUrl": "https://sitest.jp",
       "logo": "sitest.png",
