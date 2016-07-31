@@ -118,6 +118,35 @@
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
       "offerPageUrl": "http://linkode.recruitment.jp/career/"
+    },
+    {
+      "name": "フリュー株式会社",
+      "companyUrl": "http://furyu.jp/",
+      "logo": "furyu.png",
+      "link": "furyu",
+      "message": [
+        "フリューは1997年の創業以来、プリントシール機事業に始まり、コンテンツ・メディア事業、キャラクター・マーチャンダイジング事業、ゲーム事業、アニメ事業と、様々なエンタテインメント事業領域に参入し、その範囲を着実に広げて参りました。",
+        "コンテンツ・メディア事業／ソーシャルゲーム事業においては2012年からScalaを実案件にて採用し、4年以上にわたりScalaの技術を蓄積・研鑽してきました。",
+        "社内にはScalaやJavaに精通した技術者が多く在席。開発チームは自発的に新しい技術を検証し、その内容を技術ブログで公開したり、社外のセミナー・勉強会にて発表したりしています。",
+        "京都でScalaやJavaを使ったお仕事がしてみたい方！",
+        "ぜひ一緒に人々のこころを豊かで幸せにする良質なエンタテインメントを創出していきましょう！"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://www.saiyo.furyu.jp/"
+    },
+    {
+      "name": "株式会社ヌーラボ",
+      "companyUrl": "https://nulab-inc.com/",
+      "logo": "nulab.png",
+      "link": "nulab",
+      "message": [
+        "株式会社ヌーラボは「チームで働くすべての人に」をコンセプトに、仕事を楽しく、コラボレーションを促進するサービスを開発しています。プロジェクト管理の「Backlog」、図の作成と共有の「Cacoo」、チームディスカッションの「Typetalk」の開発、提供をおこなっています。",
+        "TypetalkとBacklogではScalaを採用していて、すでに多くの方の仕事を支えています。<a href='http://scala.connpass.com/event/26674/'>Scala福岡という勉強会</a>をサポートしたり、社内でもScalaや関数型プログラミングに関する勉強を実施しており、今後Scalaに力を入れていこうと考えています。また、実際にサービスで利用するために開発したScalaのライブラリをGitHubで OSS として公開も行っています。",
+        "- <a href='https://github.com/nulab/scala-oauth2-provider'>oauth2-server for Scala</a>",
+        "本社は福岡ですが、国内には京都、東京にも開発拠点があります。すべての拠点で開発者を募集していますので、Scalaを使った開発に興味がある方やヌーラボのサービスに興味がある方、「仕事の中に楽しさを」のコンセプトに共感する方、ぜひご応募ください。詳しくは採用情報や<a href='https://nulab-inc.com/ja/blog/categories/development/?ref=scalakansaisummit2016'>ヌーラボブログの技術カテゴリー</a>を参照してください。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "https://nulab-inc.com/ja/career/?ref=scalakansaisummit2016"
     }
   ]
 }
