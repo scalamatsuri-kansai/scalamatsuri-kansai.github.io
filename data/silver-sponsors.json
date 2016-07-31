@@ -2,41 +2,49 @@
   {
     "name": "株式会社ことば研究所",
     "url": "http://kotoba-lab.jp/",
-    "logo": "kotoba.png"
+    "logo": "kotoba.png",
+    "adUrl": "http://kotoba-lab.jp/"
   },
   {
     "name": "有限会社　結まーる 燻製と地ビール　和知",
     "url": "http://wachi.info/",
-    "logo": "wachi2.png"
+    "logo": "wachi2.png",
+    "adUrl": "http://wachi.info/"
   },
   {
     "name": "株式会社リンコード",
     "url": "https://www.linkode.co.jp/",
-    "logo": "linkode.png"
+    "logo": "linkode.png",
+    "adUrl": "jobs.html#linkode"
   },
   {
     "name": "エムオーテックス株式会社",
     "url": "http://www.motex.co.jp",
-    "logo": "motex.png"
+    "logo": "motex.png",
+    "adUrl": "jobs.html#motex"
   },
   {
     "name": "株式会社ヌーラボ",
     "url": "https://nulab-inc.com/",
-    "logo": "nulab.png"
+    "logo": "nulab.png",
+    "adUrl": "https://nulab-inc.com/"
   },
   {
     "name": "TIS株式会社",
     "url": "http://www.tis.jp/service_solution/goreactive/",
-    "logo": "tis.png"
+    "logo": "tis.png",
+    "adUrl": "jobs.html#tis"
   },
   {
     "name": "株式会社グラッドキューブ",
     "url": "https://www.glad-cube.com",
-    "logo": "gladcube.png"
+    "logo": "gladcube.png",
+    "adUrl": "jobs.html#sitest"
   },
   {
     "name": "株式会社はてな",
     "url": "http://hatenacorp.jp/",
-    "logo": "hatena.svg"
+    "logo": "hatena.svg",
+    "adUrl": "jobs.html#hatena"
   }
 ]

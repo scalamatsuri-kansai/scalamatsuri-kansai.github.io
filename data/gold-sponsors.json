@@ -3,18 +3,21 @@
     "name": "株式会社Tech to Value",
     "url": "http://www.t2v.jp",
     "logo": "t2v.png",
+    "adUrl": "jobs.html#t2v",
     "introduction": "お客様の価値を最大化する技術を提供します。Webサービスの構築や運用の支援、関連する教育やコンサルティングを行っています。「Scalaを採用したいけれどチームにスペシャリストが居ない」そんな場合には弊社のオンラインコードレビューサービスをご検討ください。"
   },
   {
     "name": "マーベリック株式会社",
     "url": "http://www.mvrck.co.jp",
     "logo": "maverick.png",
+    "adUrl": "jobs.html#maverick",
     "introduction": "マーベリックではScala実装100%でDSP広告「Sphere」、インフィード広告「Sphere Infeed」などなどオリジナルサービスを続々開発中です。東京で一緒に sbt run しませんか?"
   },
   {
     "name": "株式会社ビズリーチ",
     "url": "http://www.bizreach.co.jp/",
     "logo": "bizreach.png",
+    "adUrl": "jobs.html#bizreach",
     "introduction": "創業以来、インターネットテクノロジーの力で企業とビジネスパーソンの生産性向上を目指し、新領域「HR×Tech」の分野で様々なサービスを展開しています。"
   }
 ]

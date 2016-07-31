@@ -4,6 +4,7 @@
       "name": "株式会社Tech to Value",
       "companyUrl": "http://www.t2v.jp",
       "logo": "t2v.png",
+      "link": "t2v",
       "title": "「Scalaスペシャリスト、育てます」",
       "message": [
         "(株)Tech to Value では Scala Onlineコードレビューをサービスとして行っています。",
@@ -17,6 +18,7 @@
       "name": "株式会社ビズリーチ",
       "companyUrl": "http://www.bizreach.co.jp/",
       "logo": "bizreach.png",
+      "link": "bizreach",
       "title": "《scalaエンジニア》HR×Techで新たなインパクトを！",
       "message": [
         "当社は「インターネットの力で、世の中の選択肢と可能性を広げていく」のミッションのもと、様々なインターネットサービスを企画・運営しております。",
@@ -31,6 +33,7 @@
       "name": "マーベリック株式会社",
       "companyUrl": "http://www.mvrck.co.jp",
       "logo": "maverick.png",
+      "link": "maverick",
       "title": "Scalaで一緒に「新しい普通」をつくりませんか?",
       "message": [
         "マーベリック株式会社では \"新しい\"が\"普通\"になる。 をコンセプトに世界にインパクトを与えるScala製オリジナルプロダクトを続々と開発しています。",
@@ -48,6 +51,7 @@
       "name": "エムオーテックス株式会社",
       "companyUrl": "http://www.motex.co.jp",
       "logo": "motex.png",
+      "link": "motex",
       "message": [
         "あなた：「次のプロジェクトはScalaで挑戦してみたいのですが…」<br>上司　：「そんな訳のわからない言語はダメです！」",
         "というやり取りを経験したことのあるそこのあなた！",
@@ -62,6 +66,7 @@
       "name": "株式会社グラッドキューブ",
       "companyUrl": "https://sitest.jp",
       "logo": "sitest.png",
+      "link": "sitest",
       "message": [
         "当社では「喜びをカタチにする」という理念を掲げ、Webプロモ−ション事業と同時にWebシステムの開発も行っております。既に公開しておりますWebサイト解析・改善サービスであります「 SiTest (サイテスト)」の開発、運用を100%自社開発で行っており、既に10万サイト以上に導入していただいております。",
         "SiTest はフロントエンドに力を入れたシステムになっており、システムのほとんどが関数型altJSであります「LiveScript」で書かれています。Scalaの実績はまだありませんが、次のサービスではScalaの採用を予定しており、社内でもScalaでの開発気運が高まりつつあります。",
@@ -74,6 +79,7 @@
       "name": "TIS株式会社",
       "companyUrl": "http://www.tis.jp/service_solution/goreactive/",
       "logo": "tis.png",
+      "link": "tis",
       "message": [
         "Lightbendの認定コンサルティングパートナーであるTISはAkka、Play Framework、Scalaを利用したアプリケーションの構築をサポートします。お客様の開発フェーズや目的に応じて、POC支援からシステム構築のトータルサポートまで幅広くご支援致します。",
         "・技術検証・POC支援<br>・アーキテクチャ・設計レビュー<br>・コードレビュー<br>・システム構築のトータルサポート",
@@ -86,6 +92,7 @@
       "name": "株式会社はてな",
       "companyUrl": "http://hatenacorp.jp/",
       "logo": "hatena.svg",
+      "link": "hatena",
       "message": [
         "はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a target='_blank' href='http://b.hatena.ne.jp/'>はてなブックマーク</a>」「<a target='_blank' href='http://hatenablog.com/'>はてなブログ</a>」などのソーシャルサービスを展開しています。最近はサーバー監視ツール「<a target='_blank' href='https://mackerel.io/ja/'>Mackerel</a>」などビジネス向けの製品もリリースし、アクティブに開発中です。",
         "京都と東京の二拠点体制に加え、自宅でリモート勤務をしているエンジニアもおり、GitHub Enterprise や Slack を利用しアジャイルなチーム開発を行っています。",
@@ -101,6 +108,7 @@
       "name": "株式会社リンコード",
       "companyUrl": "https://www.linkode.co.jp/",
       "logo": "linkode.png",
+      "link": "linkode",
       "message": [
         "どこにもないシステムをScalaで",
         "当社は現在、音声認識システムと学校向けパッケージの開発をメインに行っています。<br>特に音声認識システムの開発では、多くの端末から送信される音声データを<br>非同期並列に、かつ高速で処理することが求められます。<br>このようなシステムは、既存のフレームワークでは実現が困難なため、<br>Scalaを用いて、Akkaなどのライブラリを組み合わせて最適なシステムを模索しながら開発設計しています。",
