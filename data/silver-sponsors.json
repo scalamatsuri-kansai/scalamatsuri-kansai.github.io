@@ -46,5 +46,23 @@
     "url": "http://hatenacorp.jp/",
     "logo": "hatena.svg",
     "adUrl": "jobs.html#hatena"
+  },
+  {
+    "name": "Lightbend",
+    "url": "https://www.lightbend.com/",
+    "logo": "lightbend.png",
+    "adUrl": "https://www.lightbend.com/"
+  },
+  {
+    "name": "株式会社ネクストビート",
+    "url": "http://www.nextbeat.co.jp/",
+    "logo": "nextbeat.png",
+    "adUrl": "http://www.nextbeat.co.jp/"
+  },
+  {
+    "name": "フリュー株式会社",
+    "url": "http://furyu.jp/",
+    "logo": "furyu.png",
+    "adUrl": "http://furyu.jp/"
   }
 ]
