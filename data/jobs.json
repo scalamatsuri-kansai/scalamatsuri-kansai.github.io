@@ -161,6 +161,26 @@
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
       "offerPageUrl": "http://www.nextbeat.co.jp/recruit"
+    },
+    {
+      "name": "株式会社オプト",
+      "companyUrl": "http://www.opt.ne.jp/opttechnologies/",
+      "logo": "opt.png",
+      "link": "opt",
+      "message": [
+        "株式会社オプトは持続的な成長を志す企業に対してマーケティング×テクノロジーのパートナーとなる「eマーケティングカンパニー」です。",
+        "インターネット広告代理店ですが、ScalaやRubyを使ったアドテクノロジー製品の開発も行っています。",
+        "Scalaでは具体的にはこんなの作ってます。",
+        "- 大規模広告効果測定システム",
+        "- ダイナミックバナーシステム",
+        "- データフィード管理システム",
+        "今年は \"Opt Technologies\" というエンジニア組織を立ち上げ、より技術を強化していくフェーズです。技術的には Scala のほか、 Apache Spark や React.js の利用が進みました。",
+        "開発拠点は東京と仙台にあります。（大阪支社あるけど開発してなくてごめんなさい＞＜）",
+        "Scalaで開発してみたい方（Scala実務経験不問）、FPでモナモナしてみたい方、モダンなフロントエンド開発してみたい方（Scala関係ない）のご応募をお待ちしております！",
+        "会場でお会いできましたら、是非いろいろお話しましょう！　お好み食べたい！"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://www.opt.ne.jp/opttechnologies/"
     }
   ]
 }

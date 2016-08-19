@@ -64,5 +64,17 @@
     "url": "http://furyu.jp/",
     "logo": "furyu.png",
     "adUrl": "jobs.html#furyu"
+  },
+  {
+    "name": "株式会社オプト",
+    "url": "http://www.opt.ne.jp/opttechnologies/",
+    "logo": "opt.png",
+    "adUrl": "jobs.html#opt"
+  },
+  {
+    "name": "株式会社サムライズム",
+    "url": "http://samuraism.com",
+    "logo": "samuraism.png",
+    "adUrl": "http://samuraism.com"
   }
 ]

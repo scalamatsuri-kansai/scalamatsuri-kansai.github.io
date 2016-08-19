@@ -1,0 +1,230 @@
+[
+  {
+    "start":"10:50",
+    "end": "11:10",
+    "contents":
+    [
+      {
+        "title":"はてなにおけるマイクロサービスとScala",
+        "speaker":"aereal",
+        "description":"",
+        "rowspan":"2"
+      },
+      {
+        "title":"Real World Android Akka",
+        "speaker":"麻植泰輔",
+        "description":"",
+        "rowspan":"2"
+      },
+      {
+        "title":"インターンシップの学生にお届けしようとしたScalaの文法(初級編)",
+        "speaker":"増田　謙太郎",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"11:15",
+    "end": "11:35",
+    "contents":
+    [
+      {
+        "title":"詳解 ::",
+        "speaker":"うらがみ",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"11:35",
+    "end": "11:50",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"11:50",
+    "end": "12:10",
+    "contents":
+    [
+      {
+        "title":"ガチのスタートアップがScala採用した結果",
+        "speaker":"くちたま",
+        "description":""
+      },
+      {
+        "title":"akka-stream を始めるときに覚えておきたいこと",
+        "speaker":"河内 崇",
+        "description":"",
+        "rowspan":"2"
+      },
+      {
+        "title":"関数プログラミングことはじめ revival",
+        "speaker":"木虎 直樹",
+        "description":"",
+        "rowspan":"4"
+      }
+    ]
+  },
+  {
+    "start":"12:15",
+    "end": "12:35",
+    "contents":
+    [
+      {
+        "title":"fs2で始める関数型ストリーミング処理入門",
+        "speaker":"kazzna",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"12:35",
+    "end": "12:40",
+    "break": true,
+    "title": "休憩 (5分)",
+    "colspan": "2"
+  },
+  {
+    "start":"12:40",
+    "end": "13:00",
+    "contents":
+    [
+      {
+        "title":"社内でSparkが流行ってきた話",
+        "speaker":"岡田遥来",
+        "description":""
+      },
+      {
+        "title":"Scalaで学ぶ数学",
+        "speaker":"@nobkz",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"13:00",
+    "end": "14:00",
+    "break": true,
+    "title": "お昼休憩 (60分)"
+  },
+  {
+    "start":"14:00",
+    "end": "14:45",
+    "contents":
+    [
+      {
+        "title":"Implicit 再入門",
+        "speaker":"中村学（がくぞ）",
+        "description":""
+      },
+      {
+        "title":"実行時バイトコード最適化でScalaプログラムを高速化する",
+        "speaker":"todesking",
+        "description":""
+      },
+      {
+        "title":"Play Framework と Scala を使った開発を学べるハンズオン",
+        "speaker":"株式会社ヌーラボ 内田優一",
+        "description":"",
+        "rowspan":"4"
+      }
+    ]
+  },
+  {
+    "start":"14:45",
+    "end": "15:00",
+    "break": true,
+    "title": "休憩 (15分)",
+    "colspan":"2"
+  },
+  {
+    "start":"15:00",
+    "end": "15:20",
+    "contents":
+    [
+      {
+        "title":"スポンサーセッション１",
+        "speaker":"",
+        "description":""
+      },
+      {
+        "title":"Akkaで実現するステートフルでスケーラブルなアーキテクチャ",
+        "speaker":"前出祐吾、杉本貴史",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"15:25",
+    "end": "15:45",
+    "contents":
+    [
+      {
+        "title":"スポンサーセッション２",
+        "speaker":"",
+        "description":""
+      },
+      {
+        "title":"Akka Clusterのネットワーク分断耐性設計",
+        "speaker":"安田裕介",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"15:45",
+    "end": "16:00",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"16:00",
+    "end": "16:45",
+    "contents":
+    [
+      {
+        "title":"sbt再入門",
+        "speaker":"高橋俊幸",
+        "description":""
+      },
+      {
+        "title":"今からはじめる Lens/Prism",
+        "speaker":"Naoki Aoyama (@aoiroaoino)",
+        "description":""
+      },
+      {
+        "title":"-",
+        "speaker":"",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"16:45",
+    "end": "17:00",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"17:00",
+    "end": "17:45",
+    "contents":
+    [
+      {
+        "title":"Asakusa FrameworkとScalaの密かな関係",
+        "speaker":"ひしだま",
+        "description":""
+      },
+      {
+        "title":"scala.collection 再入門",
+        "speaker":"amaya",
+        "description":""
+      },
+      {
+        "title":"-",
+        "speaker":"",
+        "description":""
+      }
+    ]
+  }
+]
