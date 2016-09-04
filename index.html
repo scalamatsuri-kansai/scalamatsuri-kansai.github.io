@@ -13,11 +13,9 @@
     <meta property="og:site_name" content="Scala関西 Summit 2016">
     <meta property="fb:app_id" content="1580317205586711">
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.ico"/>
-
     <link rel="stylesheet" href="styles/vendor-49ef0306ec.css">
-
     <link rel="stylesheet" href="styles/main-53bc1de3cc.css">
-
+    <script src="scripts/vendor-b3cb616551.js"></script>
     <script src="scripts/vendor/modernizr-9d550bd14f.js"></script>
   </head>
   <body>
@@ -243,20 +241,20 @@
             
             
             
-            <div class="five column row" style="padding: 0;">
+            <div class="equal width row" style="padding: 0;">
             
               <div class="column">
-                <a href="https://www.sakura.ad.jp"><img src="images/sponsors/sakura.png" class="ui centered image" width="100"></a>
+                <a href="https://www.sakura.ad.jp"><img src="images/sponsors/sakura.png" class="ui centered image" witdh="90"></a>
               </div>
               
             
             
             
               <div class="column">
-                <a href="http://company.share-wis.com/"><img src="images/sponsors/sharewis.png" class="ui centered image" width="100"></a>
+                <a href="http://company.share-wis.com/"><img src="images/sponsors/sharewis.png" class="ui centered image" witdh="90"></a>
               </div>
               
-              <div class="column"></div><div class="column"></div><div class="column"></div><div class="column"></div><div class="column"></div>
+              <div class="column"></div><div class="column"></div><div class="column"></div><div class="column"></div><div class="column"></div><div class="column"></div>
               
             
             </div>
@@ -344,29 +342,152 @@
                         
                         <td style="vertical-align: top;" rowspan="2">
                             <div>
-                              <!-- <a class="session title" href="#">-->はてなにおけるマイクロサービスとScala<!-- </a>-->
+                              <a class="session title" id="link-s1" href="#">
+                              はてなにおけるマイクロサービスとScala
+                              </a>
                             </div>
                             <span>aereal</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s1">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                はてなにおけるマイクロサービスとScala
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>はてなにおける Scala でマイクロサービスを開発した事例についてご紹介します。</p><p>サーバー監視サービスの <a href='https://mackerel.io/' target='_blank'>Mackerel</a> や現在進行中のはてなブックマークリニューアルで主たる言語として Scala を採用しているはてなで、新たなマイクロサービスの開発を Scala で進めました。</p><p>先行するプロジェクトの知見を活かして DDD (ドメイン駆動設計) を更に洗練し実践するために、ユースケース駆動設計を導入し漸進的な分析や、ビルドプロジェクト構成やプログラミング要素技術に関して様々な工夫をしています。</p><p>過去のはてなにおける統合パターンの歴史を踏まえつつ、なぜそう至ったのかという背景まで含めた持続可能なマイクロサービスの設計についてご紹介します。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars3.githubusercontent.com/u/87649" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>aereal</h3>
+                                  <p>株式会社はてなのアプリケーションエンジニア。</p><p><a href='https://profile.hatena.ne.jp/aereal/'>https://profile.hatena.ne.jp/aereal/</a></p><p><i class='github icon'></i><a href='https://github.com/aereal'>aereal</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s1').click(function(){
+                              $('.ui.modal.s1').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;" rowspan="2">
                             <div>
-                              <!-- <a class="session title" href="#">-->Real World Android Akka<!-- </a>-->
+                              <a class="session title" id="link-s2" href="#">
+                              Real World Android Akka
+                              </a>
                             </div>
                             <span>麻植泰輔</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s2">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Real World Android Akka
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Akkaは、Actorモデルによる並行プログラミングをサポートするとても優れたツールです。</p><p>Androidアプリでも、Actorモデル、そしてAkkaがフィットするケースは少なくありません。</p><p>例えばソケットなど複数のIO処理や、状態管理を伴う重い計算、複数のモジュールの協調動作、耐障害性などが複合して求められるケースです。</p><p>また、Android端末の性能の進化によりCPUも現在ではオクタコアが主流となるなどマルチコア化が進んでいることで、Akka採用のハードルが下がってきています。</p><p>本講演は、Scala + Akka(及びAkka IO)を用いたアウトドア向け音声通話(VoIP)Androidアプリ「BONX」を例にとり、Actorモデルの基礎的な概念、AndroidでのAkkaの使い方、そしてメリット・デメリットについて具体例を交えながら解説するセッションです。</p><p>BONXでは音声ストリーム処理を取り扱うため低遅延かつ高スループットを要求されますが、Akka及びAkka IOは現状十分なパフォーマンスと、複雑な排他制御から解放された見通しの良いコードを両立しています。</p><p>本講演ではScalaやAkkaを用いたAndroidアプリ開発に関心のある方だけではなく、AkkaによるActorプログラミングについて学びたい方も対象としています。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://pbs.twimg.com/profile_images/513688856479027201/xQCPwsak.jpeg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>麻植泰輔</h3>
+                                  <p>ScalaでAndroidアプリを4年以上開発しており、現在はBONX, Inc.においてAndroidアプリの開発をリード。</p><p>また並行して個人活動としてScala新人研修やコンサルティングを顧客企業向けに提供している。</p><p>ScalaMatsuriの前身であるScala Conference in Japan 2013よりScalaカンファレンス運営を続け、2017年度ScalaMatsuri座長。Japan Scala Association, Inc.常務理事。</p><p><a href='http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe'>http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/OE_uia'>OE_uia</a></p><p><i class='github icon'></i><a href='https://github.com/taisukeoe'>taisukeoe</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s2').click(function(){
+                              $('.ui.modal.s2').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->インターンシップの学生にお届けしようとしたScalaの文法(初級編)<!-- </a>-->
+                              <a class="session title" id="link-s3" href="#">
+                              インターンシップの学生にお届けしようとしたScalaの文法(初級編)
+                              </a>
                             </div>
                             <span>増田　謙太郎</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s3">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                インターンシップの学生にお届けしようとしたScalaの文法(初級編)
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>インターンシップの学生を、本年度から採用することになりました。</p><p>Scala初心者にも関わらず、インターンシップ担当になってしまった私は、学生にScalaを伝えるために、Scalaに関する本やサイトで、文法について、再度、学習しました。</p><p>このセッションでは、これからScalaをはじめようと思っている方、Scalaをはじめて間もない初心者の方に向けて、Scalaの文法について、説明します。</p><p>特に、Scalaを学習する際の序盤に、つまずきやすい点について、紹介します。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="/images/speakers/scrummasudar.jpg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>増田　謙太郎</h3>
+                                  <p>エムオーテックス株式会社で働くエンジニアです。スクラムマスター、アジャイル開発の支援が、主な仕事です。</p><p>インターンシップの学生受け入れ担当として、Scalaを日々勉強しています。</p><p><i class='facebook icon'></i><a href='https://www.facebook.com/profile.php?id=100003043368885'>https://www.facebook.com/profile.php?id=100003043368885</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/scrummasudar'>scrummasudar</a></p><p>ブログ</p><p><a href='http://scrummasudar.hatenablog.com/'>http://scrummasudar.hatenablog.com/</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s3').click(function(){
+                              $('.ui.modal.s3').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -378,11 +499,52 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->詳解 ::<!-- </a>-->
+                              <a class="session title" id="link-s4" href="#">
+                              Scalaで学ぶ数学
+                              </a>
                             </div>
-                            <span>うらがみ</span>
+                            <span>@nobkz</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s4">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Scalaで学ぶ数学
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>簡単な数学を数式を使わずにScalaを使って説明する。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="/images/speakers/nobkz.png" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>@nobkz</h3>
+                                  <p>はなだのぶかず</p><p><i class='twitter icon'></i><a href='https://twitter.com/nobkz'>nobkz</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s4').click(function(){
+                              $('.ui.modal.s4').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -403,29 +565,152 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->ガチのスタートアップがScala採用した結果<!-- </a>-->
+                              <a class="session title" id="link-s5" href="#">
+                              ガチのスタートアップがScala採用した結果
+                              </a>
                             </div>
                             <span>くちたま</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s5">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                ガチのスタートアップがScala採用した結果
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>1年前にスタートアップ企業に転職して、Scala+Play2を採用してサービス開発を行いました。ちょうど1年経ったこのタイミングで、会社やサービス、開発チームがどうなったか、乗り越えたトラブルも、抱えている課題も赤裸々にご紹介します。</p><p>Scalaエンジニア1人からスタートして、社内での普及のための取り組みとその効果などを共有する予定です。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://pbs.twimg.com/profile_images/3098931127/b08fec5532955bcdfc1d43ef4f0174a2.png" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>くちたま</h3>
+                                  <p>前職にてScalaに出会い、ScalaMatsuriなどのスタッフ活動を通してScalaコミュニティに貢献しています</p><p>1年前に転職し、社員10人以下のEdTechスタートアップ企業でScalaを採用したサービス開発を行いました</p><p>現在は、Scala+Play2の他にRoR、ReactNativeを用いた開発プロジェクトに携わっています</p><p><i class='twitter icon'></i><a href='https://twitter.com/Kuchitama'>Kuchitama</a></p><p><i class='github icon'></i><a href='https://github.com/Kuchitama'>Kuchitama</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s5').click(function(){
+                              $('.ui.modal.s5').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;" rowspan="2">
                             <div>
-                              <!-- <a class="session title" href="#">-->akka-stream を始めるときに覚えておきたいこと<!-- </a>-->
+                              <a class="session title" id="link-s6" href="#">
+                              akka-stream を始めるときに覚えておきたいこと
+                              </a>
                             </div>
                             <span>河内 崇</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s6">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                akka-stream を始めるときに覚えておきたいこと
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>akka-stream は今春 experimental を抜けました。Play 2.5 でも利用されているため、Play でウェブ開発をしている人たちにも身近な存在となっています。</p><p>akka-stream の概要と akka-stream でプログラムを書くときに出てくる他ではあまり出てこない概念（back pressure, Source, Sink, Materializer など）について解説します。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://s.gravatar.com/avatar/35ea8f83cd8d191f834c69a5481613e9" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>河内 崇</h3>
+                                  <p>プログラマで2児の父。ScalaMatsuriの運営に関わっています。</p><p><i class='github icon'></i><a href='https://github.com/tkawachi/'>tkawachi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kawachi'>kawachi</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s6').click(function(){
+                              $('.ui.modal.s6').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;" rowspan="4">
                             <div>
-                              <!-- <a class="session title" href="#">-->関数プログラミングことはじめ revival<!-- </a>-->
+                              <a class="session title" id="link-s7" href="#">
+                              関数プログラミングことはじめ revival (ハンズオン)
+                              </a>
                             </div>
                             <span>木虎 直樹</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s7">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                関数プログラミングことはじめ revival (ハンズオン)
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>単な例を使い命令プログラミングと関数プログラミングにおける問題へのアプローチの違いを体験してもらいます。再帰のコードは読みづらい、あるいは、ループなしでどうやってコードを書くのかというような疑問を持っている人には良いかもしれません。内容は昨年実施したものとほぼ同じです。<p>&nbsp;</p><p>使用予定環境：</p><ul><li>JDK</li><li>IntelliJ IDEA CE</li><li>Scala プラグイン</li></ul><p>(会場のネットワーク環境の都合上 &quot;必ず&quot; 事前に準備をお願いします)</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="http://event.shoeisha.jp/static/images/event/497/images/b3_mr_kitora.jpg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>木虎 直樹</h3>
+                                  <p>シナジーマーケティング株式会社で働く IT エンジニア。</p><p>2011年からソフトウェア開発に Scala を使い始め、社内の一部でも使われるようになった。</p><p>が、最近の主な業務はプログラミングではなくなってきている。</p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s7').click(function(){
+                              $('.ui.modal.s7').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -437,11 +722,52 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->fs2で始める関数型ストリーミング処理入門<!-- </a>-->
+                              <a class="session title" id="link-s8" href="#">
+                              fs2で始める関数型ストリーミング処理入門
+                              </a>
                             </div>
                             <span>kazzna</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s8">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                fs2で始める関数型ストリーミング処理入門
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>非同期処理を簡単に行えるライブラリーfs2を使用して、関数型ストリーミング処理の考え方や使い方をゆるふあに学びたいと思います。</p><p>難しい理論や原理は他の発表者の方に譲って、取っ掛かりだけつかめれば良いと思う人向けに頑張ります。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="http://deliver.commons.nicovideo.jp/thumbnail/nc87142?size=l" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>kazzna</h3>
+                                  <p>IT系非園児にゃーです。普段はデータ解析とかやってます。</p><p><i class='twitter icon'></i><a href='https://twitter.com/kazzna'>kazzna</a></p><p><i class='github icon'></i><a href='https://github.com/kazzna'>kazzna</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s8').click(function(){
+                              $('.ui.modal.s8').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -462,20 +788,102 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->社内でSparkが流行ってきた話<!-- </a>-->
+                              <a class="session title" id="link-s9" href="#">
+                              社内でSparkが流行ってきた話
+                              </a>
                             </div>
                             <span>岡田遥来</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s9">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                社内でSparkが流行ってきた話
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                   <p>新規プロダクトでSparkを採用したことで知見が得られ、他の新規プロダクト / 機能追加開発においてもSpark導入が増えてきたことについての発表です。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://pbs.twimg.com/profile_images/655093624615497728/WehY-pPn.png" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>岡田遥来</h3>
+                                  <p>株式会社オプト所属のScalaエンジニアです。</p><p><i class='github icon'></i><a href='https://github.com/ocadaruma'>ocadaruma</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/ocadaruma'>ocadaruma</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s9').click(function(){
+                              $('.ui.modal.s9').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->Scalaで学ぶ数学<!-- </a>-->
+                              <a class="session title" id="link-s10" href="#">
+                              詳解 ::
+                              </a>
                             </div>
-                            <span>@nobkz</span>
+                            <span>うらがみ</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s10">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                詳解 ::
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>val xs = 1 :: 2 :: Nil とすればリストxsが作れます。</p><p>またval h :: t = xs とすればリストxsを分解できます。</p><p>本セッションでは、このリストにまつわるふたつの :: がScalaの文法を使ってどのように実現されているのかを紐解いて、自作のデータ構造への応用を試してみます。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars3.githubusercontent.com/u/209262" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>うらがみ</h3>
+                                  <p>Javaプログラマです。</p><p>GitHubに草生やすのが最近の趣味です。</p><p><i class='github icon'></i><a href='https://github.com/backpaper0'>backpaper0</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s10').click(function(){
+                              $('.ui.modal.s10').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -496,29 +904,152 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->Implicit 再入門<!-- </a>-->
+                              <a class="session title" id="link-s11" href="#">
+                              Implicit 再入門
+                              </a>
                             </div>
                             <span>中村学（がくぞ）</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s11">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Implicit 再入門
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>「Scalaのコードは読みにくい」「Implicitが無ければ……」等の声を耳にします。これに応えて、なぜimplicitが必要なのか、implicitは本当に可読性を下げるのか、適切なimplicitの使い方などを考察していきます</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="http://summit.scala-kansai.org/2015/images/speakers/nakamura.jpg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>中村学（がくぞ）</h3>
+                                  <p>株式会社Tech to Value 代表取締役。Scalaを中心にWeb開発やITシステムコンサルティングを行っています。</p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s11').click(function(){
+                              $('.ui.modal.s11').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->実行時バイトコード最適化でScalaプログラムを高速化する<!-- </a>-->
+                              <a class="session title" id="link-s12" href="#">
+                              実行時バイトコード最適化でScalaプログラムを高速化する
+                              </a>
                             </div>
                             <span>todesking</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s12">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                実行時バイトコード最適化でScalaプログラムを高速化する
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>高度な抽象化がされたScalaプログラムはパフォーマンスのオーバヘッドを伴います。JITがあるから大丈夫? しかし現実は甘くなかった。実行時にバイトコードを変換することで、極限までオーバヘッドを減らす手法について紹介します。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars3.githubusercontent.com/u/112881" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>todesking</h3>
+                                  <p>VimでScalaを書いている</p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s12').click(function(){
+                              $('.ui.modal.s12').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;" rowspan="4">
                             <div>
-                              <!-- <a class="session title" href="#">-->Play Framework と Scala を使った開発を学べるハンズオン<!-- </a>-->
+                              <a class="session title" id="link-s13" href="#">
+                              Play Framework と Scala を使った開発を学べるハンズオン
+                              </a>
                             </div>
                             <span>株式会社ヌーラボ 内田優一</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s13">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Play Framework と Scala を使った開発を学べるハンズオン
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  Play Framework と Scala を使った開発を学べるハンズオン
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://www.gravatar.com/avatar/ff8cf1b55b7f53f7a49af20f9406efd5?s=200" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>株式会社ヌーラボ 内田優一</h3>
+                                  <p>株式会社ヌーラボでBacklogの開発をしています。</p><p>RedmineからBacklogへのマイグレーションツールを作るのにScalaを使っています。</p><p><a href='https://github.com/nulab/BacklogMigration-Redmine'>https://github.com/nulab/BacklogMigration-Redmine</a></p><p>その他、隔週で「サルでもわかるScala」というタイトルで社内で勉強会していますので機会があれば是非お越しください。</p><p><i class='github icon'></i><a href='https://github.com/YuichiUchida'>YuichiUchida</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s13').click(function(){
+                              $('.ui.modal.s13').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -539,20 +1070,113 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->スポンサーセッション１<!-- </a>-->
+                              <a class="session title" id="link-s14" href="#">
+                              Play2+SlickだけじゃないScalaのWeb/DBフレームワーク事情
+                              </a>
                             </div>
-                            <span></span>
+                            <span>竹添 直樹</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s14">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Play2+SlickだけじゃないScalaのWeb/DBフレームワーク事情
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>弊社ではこれまでScalaの標準的なフレームワークであるPlay2およびSlickを使用してきましたが、マイクロサービスとの親和性や性能面、学習コストなどの点においてより適したフレームワークへの移行を模索しています。</p><p>このセッションでは移行先としてどのようなフレームワークを検討しているのか？についてお話しさせていただきます。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="http://btbb.jp/img/speakers/takezoe.jpg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>竹添 直樹</h3>
+                                  <p>株式会社ビズリーチ所属。Scalaを愛するJVM系プログラマ。業務の傍らOSS開発や執筆活動を行っています。</p><p><i class='twitter icon'></i><a href='https://twitter.com/takezoen'>takezoen</a></p><p><i class='github icon'></i><a href='https://github.com/takezoe'>takezoe</a></p><p>Blog: <a href='http://takezoe.hatenablog.com/'>http://takezoe.hatenablog.com/</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s14').click(function(){
+                              $('.ui.modal.s14').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->Akkaで実現するステートフルでスケーラブルなアーキテクチャ<!-- </a>-->
+                              <a class="session title" id="link-s15" href="#">
+                              Akkaで実現するステートフルでスケーラブルなアーキテクチャ
+                              </a>
                             </div>
                             <span>前出祐吾、杉本貴史</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s15">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Akkaで実現するステートフルでスケーラブルなアーキテクチャ
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>ステートレスなアーキテクチャの場合、スケーリングは比較的簡単です。</p><p>しかし、高度なビジネス要件に答えるため、時にはステートフルな設計も必要になるのではないでしょうか。</p><p>そこで、Akka Cluster、Akka Cluster Sharding、Akka PersistenceといったAkkaの機能を効果的に使い、ステートフルでスケーラブル、かつ、レジリエンスを実現するアーキテクチャを紹介します。</p><p>ワークロードの増加によるスケールアップ時やサーバダウン時のShardの振る舞いをデモを交えて紹介する予定です。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="http://summit.scala-kansai.org/2015/images/speakers/maede.png" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  
+                                  <h3>前出祐吾</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p><i class='github icon'></i><a href='https://github.com/yugolf'>yugolf</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/yugolf'>yugolf</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars0.githubusercontent.com/u/13145001" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>杉本貴史</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p>趣味はJavaScriptでChrome拡張を作ることです。</p><p><i class='github icon'></i><a href='https://github.com/tksugimoto'>tksugimoto</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s15').click(function(){
+                              $('.ui.modal.s15').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -564,20 +1188,66 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->スポンサーセッション２<!-- </a>-->
+                              
+                              スポンサーセッション２
+                              
                             </div>
                             <span></span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->Akka Clusterのネットワーク分断耐性設計<!-- </a>-->
+                              <a class="session title" id="link-s17" href="#">
+                              Akka Clusterのネットワーク分断耐性設計
+                              </a>
                             </div>
                             <span>安田裕介</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s17">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Akka Clusterのネットワーク分断耐性設計
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Akka Clusterは分散システムを構築するためのライブラリだ。Akka Clusterは基本的な機能を提供するのみなので、ネットワーク分断耐性の設計はアプリケーション開発者が考えなければならない。アプリケーションで整合性が求められないことは稀で、Dynamoスタイルのネットワーク分断耐性の仕組みは非常に高度なため、CAPの定理におけるCPサイドを考える。このときAkka Clusterでどのようにネットワーク分断耐性の実現が可能なのか解説する。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars1.githubusercontent.com/u/2936722?v=3&amp;s=460" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>安田裕介</h3>
+                                  <p>Akka enthusiast.</p><p><i class='github icon'></i><a href='https://github.com/TanUkkii007'>TanUkkii007</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/TanUkkii007'>TanUkkii007</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s17').click(function(){
+                              $('.ui.modal.s17').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                     </tr>
@@ -598,29 +1268,116 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->sbt再入門<!-- </a>-->
+                              <a class="session title" id="link-s18" href="#">
+                              sbt再入門
+                              </a>
                             </div>
                             <span>高橋俊幸</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s18">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                sbt再入門
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Scalaの開発環境は決して複雑ではありません。</p><p>sbtを起動するだけで規模の大小に関わらず開発を始められます。</p><p>とはいえsbtはその多機能さから複雑で難解なものと認識され、仕組みについては知らずに使っているScalaプログラマも多いようです。その結果、Scalaの開発環境そのものについての誤解や混乱が生じているように感じています。</p><p>本セッションではsbtの基本思想と概念について再確認をし、build.sbtを理解して書けることを目指します。</p><p>加えて最近のScala開発環境の話題を取り上げ、適材適所で使うためにそれぞれの意義や使いどころについて考えます。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://avatars1.githubusercontent.com/u/264469" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>高橋俊幸</h3>
+                                  <p>flyway-play, scala-csv, slick-joda-mapper, sbt-musical などを開発しています。</p><p><i class='github icon'></i><a href='https://github.com/tototoshi'>tototoshi</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s18').click(function(){
+                              $('.ui.modal.s18').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->今からはじめる Lens/Prism<!-- </a>-->
+                              <a class="session title" id="link-s19" href="#">
+                              今からはじめる Lens/Prism
+                              </a>
                             </div>
                             <span>Naoki Aoyama (@aoiroaoino)</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s19">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                今からはじめる Lens/Prism
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Lens の基本から始まり、実用例を踏まえつつ、Scala の Lens 事情をお話ししたいと思います。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://pbs.twimg.com/profile_images/556312366862708736/jmQUaeoW.jpeg" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>Naoki Aoyama (@aoiroaoino)</h3>
+                                  <p>アドテク系企業でScala書くお仕事してます。猫とカレーとヒトカラが大好き。Monocle のコミッターやってます。</p><p><i class='twitter icon'></i><a href='https://twitter.com/AoiroAoino'>AoiroAoino</a></p><p><i class='github icon'></i><a href='https://github.com/aoiroaoino'>aoiroaoino</a></p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s19').click(function(){
+                              $('.ui.modal.s19').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->-<!-- </a>-->
+                              
+                              -
+                              
                             </div>
                             <span></span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+
                         </td>
                         
                     </tr>
@@ -641,29 +1398,112 @@
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->Asakusa FrameworkとScalaの密かな関係<!-- </a>-->
+                              <a class="session title" id="link-s20" href="#">
+                              Asakusa FrameworkとScalaの密かな関係
+                              </a>
                             </div>
                             <span>ひしだま</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s20">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                Asakusa FrameworkとScalaの密かな関係
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Asakusa Frameworkは、分散処理するバッチアプリケーションを開発・実行する為のフレームワークです。実行基盤としてHadoop・Spark・M3BPを利用できます。</p><p>自分がScalaやAsakusaFWを知った経緯の話や、Scalaと比較しつつAsakusaFWの紹介をしたいと思います。</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="description">
+                                  <h3>ひしだま</h3>
+                                  <p>最近はAsakusaアプリケーションを書く仕事をしています。</p><p><a href='http://www.ne.jp/asahi/hishidama/home/tech/index.html'>http://www.ne.jp/asahi/hishidama/home/tech/index.html</a><p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s20').click(function(){
+                              $('.ui.modal.s20').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->scala.collection 再入門<!-- </a>-->
+                              <a class="session title" id="link-s21" href="#">
+                              scala.collection 再入門
+                              </a>
                             </div>
                             <span>amaya</span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+                            <div class="ui modal s21">
+                              <i class="close icon"></i>
+                              <div class="header">
+                                scala.collection 再入門
+                              </div>
+                              <div class="image content">
+                                <div class="description">
+                                  <p>Scalaを利用していれば誰もがお世話になるScala標準ライブラリのscala.collectionについて, ちょっとアカデミックなアルゴリズムとデータ構造の話からプラクティカルなCollectionの選び方や操作方法まで一通りご紹介します. Collectionってどうなっているの？どれをどう使えばいいの？といった疑問を持つ初〜中級者を対象とします.</p><p>(なお, 本セッションは第3回Scala関西勉強会で行ったものを拡充した内容となる予定です)</p>
+                                </div>
+                              </div>
+                              <div class="image content">
+                                
+                                <div class="ui medium image">
+                                  <img src="https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png" width="320px">
+                                </div>
+                                
+                                <div class="description">
+                                  <h3>amaya</h3>
+                                  <p>グラフ処理や自然言語処理と戯れているScalaが好きな学生です</p><p><i class='twitter icon'></i><a href='https://twitter.com/0x17E'>0x17E</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: http://sapphire.in.net</p>
+                                </div>
+                              </div>
+                              
+                              <div class="actions">
+                                <div class="ui black deny button">
+                                  Close
+                                </div>
+                              </div>
+                            </div>
+                            <script>
+                            $(function(){
+                            $('#link-s21').click(function(){
+                              $('.ui.modal.s21').modal('show');
+                            });
+                            });
+                            </script>
+                            
+
                         </td>
                         
                         <td style="vertical-align: top;">
                             <div>
-                              <!-- <a class="session title" href="#">-->-<!-- </a>-->
+                              
+                              -
+                              
                             </div>
                             <span></span>
                             <!-- <a class="ui orange mini button"><i class="file outline icon"></i>資料</a> -->
                             <!-- <a class="ui blue mini button"><i class="film icon"></i>動画</a> -->
+
+                            
+
                         </td>
                         
                     </tr>
@@ -1016,7 +1856,6 @@
 
 </script>
 
-<script src="scripts/vendor-b3cb616551.js"></script>
 <script src="scripts/main-26aed58625.js"></script>
 <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 
