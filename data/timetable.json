@@ -16,7 +16,7 @@
       {
         "id":"s2",
         "title":"Real World Android Akka",
-        "speaker":"麻植泰輔",
+        "speaker":"麻植 泰輔",
         "profile":"<p>ScalaでAndroidアプリを4年以上開発しており、現在はBONX, Inc.においてAndroidアプリの開発をリード。</p><p>また並行して個人活動としてScala新人研修やコンサルティングを顧客企業向けに提供している。</p><p>ScalaMatsuriの前身であるScala Conference in Japan 2013よりScalaカンファレンス運営を続け、2017年度ScalaMatsuri座長。Japan Scala Association, Inc.常務理事。</p><p><a href='http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe'>http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/OE_uia'>OE_uia</a></p><p><i class='github icon'></i><a href='https://github.com/taisukeoe'>taisukeoe</a></p>",
         "image":"https://pbs.twimg.com/profile_images/513688856479027201/xQCPwsak.jpeg",
         "description":"<p>Akkaは、Actorモデルによる並行プログラミングをサポートするとても優れたツールです。</p><p>Androidアプリでも、Actorモデル、そしてAkkaがフィットするケースは少なくありません。</p><p>例えばソケットなど複数のIO処理や、状態管理を伴う重い計算、複数のモジュールの協調動作、耐障害性などが複合して求められるケースです。</p><p>また、Android端末の性能の進化によりCPUも現在ではオクタコアが主流となるなどマルチコア化が進んでいることで、Akka採用のハードルが下がってきています。</p><p>本講演は、Scala + Akka(及びAkka IO)を用いたアウトドア向け音声通話(VoIP)Androidアプリ「BONX」を例にとり、Actorモデルの基礎的な概念、AndroidでのAkkaの使い方、そしてメリット・デメリットについて具体例を交えながら解説するセッションです。</p><p>BONXでは音声ストリーム処理を取り扱うため低遅延かつ高スループットを要求されますが、Akka及びAkka IOは現状十分なパフォーマンスと、複雑な排他制御から解放された見通しの良いコードを両立しています。</p><p>本講演ではScalaやAkkaを用いたAndroidアプリ開発に関心のある方だけではなく、AkkaによるActorプログラミングについて学びたい方も対象としています。</p>",
@@ -116,7 +116,7 @@
       {
         "id":"s9",
         "title":"社内でSparkが流行ってきた話",
-        "speaker":"岡田遥来",
+        "speaker":"岡田 遥来",
         "profile":"<p>株式会社オプト所属のScalaエンジニアです。</p><p><i class='github icon'></i><a href='https://github.com/ocadaruma'>ocadaruma</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/ocadaruma'>ocadaruma</a></p>",
         "image":"https://pbs.twimg.com/profile_images/655093624615497728/WehY-pPn.png",
         "description":" <p>新規プロダクトでSparkを採用したことで知見が得られ、他の新規プロダクト / 機能追加開発においてもSpark導入が増えてきたことについての発表です。</p>"
@@ -145,7 +145,7 @@
       {
         "id":"s11",
         "title":"Implicit 再入門",
-        "speaker":"中村学（がくぞ）",
+        "speaker":"中村 学（がくぞ）",
         "profile":"<p>株式会社Tech to Value 代表取締役。Scalaを中心にWeb開発やITシステムコンサルティングを行っています。</p>",
         "image":"http://summit.scala-kansai.org/2015/images/speakers/nakamura.jpg",
         "description":"<p>「Scalaのコードは読みにくい」「Implicitが無ければ……」等の声を耳にします。これに応えて、なぜimplicitが必要なのか、implicitは本当に可読性を下げるのか、適切なimplicitの使い方などを考察していきます</p>"
@@ -161,7 +161,7 @@
       {
         "id":"s13",
         "title":"Play Framework と Scala を使った開発を学べるハンズオン",
-        "speaker":"株式会社ヌーラボ 内田優一",
+        "speaker":"内田 優一",
         "profile":"<p>株式会社ヌーラボでBacklogの開発をしています。</p><p>RedmineからBacklogへのマイグレーションツールを作るのにScalaを使っています。</p><p><a href='https://github.com/nulab/BacklogMigration-Redmine'>https://github.com/nulab/BacklogMigration-Redmine</a></p><p>その他、隔週で「サルでもわかるScala」というタイトルで社内で勉強会していますので機会があれば是非お越しください。</p><p><i class='github icon'></i><a href='https://github.com/YuichiUchida'>YuichiUchida</a></p>",
         "image":"https://www.gravatar.com/avatar/ff8cf1b55b7f53f7a49af20f9406efd5?s=200",
         "description":"Play Framework と Scala を使った開発を学べるハンズオン",
@@ -192,13 +192,13 @@
       {
         "id":"s15",
         "title":"Akkaで実現するステートフルでスケーラブルなアーキテクチャ",
-        "speaker":"前出祐吾、杉本貴史",
-        "profile":"<h3>前出祐吾</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p><i class='github icon'></i><a href='https://github.com/yugolf'>yugolf</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/yugolf'>yugolf</a></p>",
+        "speaker":"前出 祐吾、杉本 貴史",
+        "profile":"<h3>前出 祐吾</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p><i class='github icon'></i><a href='https://github.com/yugolf'>yugolf</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/yugolf'>yugolf</a></p>",
         "image":"http://summit.scala-kansai.org/2015/images/speakers/maede.png",
         "description":"<p>ステートレスなアーキテクチャの場合、スケーリングは比較的簡単です。</p><p>しかし、高度なビジネス要件に答えるため、時にはステートフルな設計も必要になるのではないでしょうか。</p><p>そこで、Akka Cluster、Akka Cluster Sharding、Akka PersistenceといったAkkaの機能を効果的に使い、ステートフルでスケーラブル、かつ、レジリエンスを実現するアーキテクチャを紹介します。</p><p>ワークロードの増加によるスケールアップ時やサーバダウン時のShardの振る舞いをデモを交えて紹介する予定です。</p>",
-        "speaker2":"杉本貴史",
+        "speaker2":"杉本 貴史",
         "image2":"https://avatars0.githubusercontent.com/u/13145001",
-        "profile2":"<h3>杉本貴史</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p>趣味はJavaScriptでChrome拡張を作ることです。</p><p><i class='github icon'></i><a href='https://github.com/tksugimoto'>tksugimoto</a></p>"
+        "profile2":"<h3>杉本 貴史</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p>趣味はJavaScriptでChrome拡張を作ることです。</p><p><i class='github icon'></i><a href='https://github.com/tksugimoto'>tksugimoto</a></p>"
       }
     ]
   },
@@ -208,17 +208,17 @@
     "contents":
     [
       {
-        "id":false,
-        "title":"スポンサーセッション２",
-        "speaker":"",
-        "profile":"",
+        "id":"s16",
+        "title":"広告とScalaのマーベリック式開発スタイル",
+        "speaker":"苗村 教行",
+        "profile":"<p>広告系の企業で開発ディレクターやってます。</p>",
         "image":"",
-        "description":""
+        "description":"<p>Scalaで広告を開発するマーベリックでやってきた開発スタイルを紹介します！</p>"
       },
       {
         "id":"s17",
         "title":"Akka Clusterのネットワーク分断耐性設計",
-        "speaker":"安田裕介",
+        "speaker":"安田 裕介",
         "profile":"<p>Akka enthusiast.</p><p><i class='github icon'></i><a href='https://github.com/TanUkkii007'>TanUkkii007</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/TanUkkii007'>TanUkkii007</a></p>",
         "image":"https://avatars1.githubusercontent.com/u/2936722?v=3&s=460",
         "description":"<p>Akka Clusterは分散システムを構築するためのライブラリだ。Akka Clusterは基本的な機能を提供するのみなので、ネットワーク分断耐性の設計はアプリケーション開発者が考えなければならない。アプリケーションで整合性が求められないことは稀で、Dynamoスタイルのネットワーク分断耐性の仕組みは非常に高度なため、CAPの定理におけるCPサイドを考える。このときAkka Clusterでどのようにネットワーク分断耐性の実現が可能なのか解説する。</p>"
@@ -239,7 +239,7 @@
       {
         "id":"s18",
         "title":"sbt再入門",
-        "speaker":"高橋俊幸",
+        "speaker":"高橋 俊幸",
         "profile":"<p>flyway-play, scala-csv, slick-joda-mapper, sbt-musical などを開発しています。</p><p><i class='github icon'></i><a href='https://github.com/tototoshi'>tototoshi</a></p>",
         "image":"https://avatars1.githubusercontent.com/u/264469",
         "description":"<p>Scalaの開発環境は決して複雑ではありません。</p><p>sbtを起動するだけで規模の大小に関わらず開発を始められます。</p><p>とはいえsbtはその多機能さから複雑で難解なものと認識され、仕組みについては知らずに使っているScalaプログラマも多いようです。その結果、Scalaの開発環境そのものについての誤解や混乱が生じているように感じています。</p><p>本セッションではsbtの基本思想と概念について再確認をし、build.sbtを理解して書けることを目指します。</p><p>加えて最近のScala開発環境の話題を取り上げ、適材適所で使うためにそれぞれの意義や使いどころについて考えます。</p>"
