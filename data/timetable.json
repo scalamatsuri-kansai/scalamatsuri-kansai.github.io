@@ -284,7 +284,7 @@
         "id":"s21",
         "title":"scala.collection 再入門",
         "speaker":"amaya",
-        "profile":"<p>グラフ処理や自然言語処理と戯れているScalaが好きな学生です</p><p><i class='twitter icon'></i><a href='https://twitter.com/0x17E'>0x17E</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: http://sapphire.in.net</p>",
+        "profile":"<p>グラフ処理や自然言語処理と戯れているScalaが好きな学生です</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
         "image":"https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
         "description":"<p>Scalaを利用していれば誰もがお世話になるScala標準ライブラリのscala.collectionについて, ちょっとアカデミックなアルゴリズムとデータ構造の話からプラクティカルなCollectionの選び方や操作方法まで一通りご紹介します. Collectionってどうなっているの？どれをどう使えばいいの？といった疑問を持つ初〜中級者を対象とします.</p><p>(なお, 本セッションは第3回Scala関西勉強会で行ったものを拡充した内容となる予定です)</p>"
       },
