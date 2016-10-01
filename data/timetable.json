@@ -164,7 +164,7 @@
         "speaker":"内田 優一",
         "profile":"<p>株式会社ヌーラボでBacklogの開発をしています。</p><p>RedmineからBacklogへのマイグレーションツールを作るのにScalaを使っています。</p><p><a href='https://github.com/nulab/BacklogMigration-Redmine'>https://github.com/nulab/BacklogMigration-Redmine</a></p><p>その他、隔週で「サルでもわかるScala」というタイトルで社内で勉強会していますので機会があれば是非お越しください。</p><p><i class='github icon'></i><a href='https://github.com/YuichiUchida'>YuichiUchida</a></p>",
         "image":"https://www.gravatar.com/avatar/ff8cf1b55b7f53f7a49af20f9406efd5?s=200",
-        "description":"Play Framework と Scala を使った開発を学べるハンズオン",
+        "description":"<p>Play Framework と Scala を使った開発を学べるハンズオン</p><p>参加希望の方は事前に下記の準備をお願いします。<br><a href='http://qiita.com/yuichi0301/items/4785e3fe490736d4ee50'>Play Frameworkハンズオン環境構築 - Qiita</a></p>",
         "rowspan":"4"
       }
     ]
