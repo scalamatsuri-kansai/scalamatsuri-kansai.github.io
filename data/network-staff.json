@@ -1,8 +1,13 @@
 [
   {
-    "name": "だんの",
+    "name": "Hiroki Danno",
     "image": "images/icons/danno.png",
     "url": "#",
     "meta": "チームリーダー"
+  },
+  {
+    "name": "やまだ",
+    "image": "images/icons/yamada.jpg",
+    "url": "#"
   }
 ]
