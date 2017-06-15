@@ -1,8 +1,18 @@
 [
   {
+    "name": "エムオーテックス株式会社",
+    "url": "http://www.motex.co.jp",
+    "logo": "motex_w240.png"
+  },
+  {
     "name": "株式会社サムライズム",
     "url": "http://samuraism.com/",
     "logo": "samuraism_w240.png"
+  },
+  {
+    "name": "株式会社インパス",
+    "url": "https://impath.co.jp/",
+    "logo": "impath_w240.png"
   },
   {
     "name": "株式会社リンコード",
